@@ -1,0 +1,24 @@
+.article_component {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  .article_title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .article_content {
+    font-size: 1em;
+  }
+  
+  .article_button_container {
+    position: absolute;
+    bottom: 60px; /* Adjust based on the padding/margin */
+    left: 15px;   /* Adjust based on the padding/margin */
+  }
+  
